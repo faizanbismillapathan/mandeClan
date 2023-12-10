@@ -1,0 +1,707 @@
+.container111{max-width:1170px; margin:auto;}
+img{ max-width:100%;}
+.inbox_people {
+  background: #f8f8f8 none repeat scroll 0 0;
+  float: left;
+  overflow: hidden;
+  width: 40%; border-right:1px solid #c4c4c4;
+}
+.inbox_msg {
+  /*border: 1px solid #c4c4c4;*/
+  clear: both;
+  overflow: hidden;
+}
+.top_spac{ margin: 20px 0 0;}
+
+
+.recent_heading {float: left; width:40%;}
+.srch_bar {
+  display: inline-block;
+  text-align: right;
+  width: 60%; padding:
+}
+.headind_srch{ padding:10px 29px 10px 20px; overflow:hidden; border-bottom:1px solid #c4c4c4;}
+
+.recent_heading h4 {
+  color: #05728f;
+  font-size: 21px;
+  margin: auto;
+}
+.srch_bar input{ border:1px solid #cdcdcd; border-width:0 0 1px 0; width:80%; padding:2px 0 4px 6px; background:none;}
+.srch_bar .input-group-addon button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  padding: 0;
+  color: #707070;
+  font-size: 18px;
+}
+.srch_bar .input-group-addon { margin: 0 0 0 -27px;}
+
+.chat_ib h5{ font-size:15px; color:#464646; margin:0 0 8px 0;}
+.chat_ib h5 span{ font-size:13px; float:right;}
+.chat_ib p{ font-size:14px; color:#989898; margin:auto}
+.chat_img {
+  float: left;
+  width: 11%;
+}
+.chat_ib {
+  float: left;
+  padding: 0 0 0 15px;
+  width: 88%;
+}
+
+.chat_people{ overflow:hidden; clear:both;}
+.chat_list {
+  border-bottom: 1px solid #c4c4c4;
+  margin: 0;
+  padding: 18px 16px 10px;
+}
+.inbox_chat { height: 550px; overflow-y: scroll;}
+
+.active_chat{ background:#ebebeb;}
+
+.incoming_msg_img {
+  display: inline-block;
+  width: 6%;
+}
+.received_msg {
+  display: inline-block;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+  width: 92%;
+ }
+ .received_withd_msg p {
+  background: #ebebeb none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #646464;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+.time_date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+.received_withd_msg { width: 57%;}
+.mesgs {
+  /*float: left;*/
+  padding: 30px 15px 0 25px;
+  width: 60%;
+  margin:0 auto;
+      border: 1px solid #c4c4c4;
+  height: 600px;
+  /*overflow:  */
+}
+
+ .sent_msg p {
+  background: #05728f none repeat scroll 0 0;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0; color:#fff;
+  padding: 5px 10px 5px 12px;
+  width:100%;
+}
+.outgoing_msg{ overflow:hidden; margin:26px 0 26px;}
+.sent_msg {
+  float: right;
+  width: 46%;
+}
+.input_msg_write input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 100%;
+}
+.mesgs .input_msg_write{
+padding: 0px!important;
+}
+.type_msg {border-top: 1px solid #c4c4c4;position: relative;
+}
+.msg_send_btn {
+  background: #05728f none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 33px;
+}
+.messaging { padding: 0 0 50px 0;}
+.msg_history {
+  height: 516px;
+  overflow-y: auto;
+}
+.adminFiltersBox__inputHidden {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    z-index: -1;
+}
+
+              .mb5 {
+    margin-bottom: 5px;
+}
+.adminFiltersBox--pill {
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+}
+
+.adminFiltersBox {
+    display: inline-block;
+    vertical-align: middle;
+}
+.adminFiltersBox--pill .adminFiltersBox__check:first-child, .adminFiltersBox--pill .adminFiltersBox__select:first-child {
+    border: 0;
+}
+
+.adminFiltersBox--pill .adminFiltersBox__check, .adminFiltersBox--pill .adminFiltersBox__select {
+    border-width: 0 0 0 1px;
+    border-radius: 0;
+    margin: 0;
+}
+.adminFiltersBox__check {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background: #fff;
+    padding: 7px 10px;
+    font-weight: 400;
+}
+.adminFiltersBox--pill .adminFiltersBox__check, .adminFiltersBox--pill .adminFiltersBox__select {
+    border-width: 0 0 0 1px;
+    border-radius: 0;
+    margin: 0;
+}
+
+.adminFiltersBox__select {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background: #fff;
+    margin-right: 5px;
+    padding: 7px 13px;
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+    border-left: 1px solid #d9d9d9;
+}
+.adminFiltersBox__dropdown {
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    min-width: 100%;
+    left: 0;
+    top: 48px;
+    z-index: 999;
+    background: #fff;
+    position: absolute;
+    text-align: left;
+}
+.icon-arrow-down:before {
+    background-position: -90px -11px;
+    height: 6px;
+    width: 13px;
+}
+
+.icon:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(https://cdn1.weddingwire.in/build/img/locale/en_IN/icon-sb8538486cb.png?v=nossl-20181219-08UTF_IN122-1);
+    background-repeat: no-repeat;
+    margin-top: -1px;
+    -webkit-print-color-adjust: exact;
+}
+.adminFiltersBox__dropdown li {
+    border-bottom: 1px solid #d9d9d9;
+}
+.adminFiltersBox__dropdown li a {
+    padding: 13px;
+    font-size: 13px;
+    line-height: 1em;
+    font-weight: 300;
+    color: #444;
+    white-space: nowrap;
+    display: block;
+}
+.adminBullet--orange {
+    background-color: #faa14b!important;
+}
+.adminBullet--blue {
+    background-color: #4baad6!important;
+}
+.adminBullet--green {
+    background-color: #559359!important;
+}
+.adminBullet--red {
+    background-color: #f76c6f!important;
+}
+
+.adminBullet {
+    display: inline-block;
+    vertical-align: baseline;
+    background-color: #8c8c8c;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 transparent;
+    transition: .3s ease box-shadow;
+}
+.adminBullet {
+    display: inline-block;
+    vertical-align: baseline;
+    background-color: #8c8c8c;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 transparent;
+    transition: .3s ease box-shadow;
+}
+.adminFiltersSuggest {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    width: 30%;
+}.relative {
+    position: relative;
+}
+input[type=search] {
+    -webkit-appearance: textfield;
+    box-sizing: content-box;
+}
+
+.adminFiltersSuggest__Search {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background: #fff;
+    border-radius: 20px;
+    background: url(https://cdn1.weddingwire.in/assets/img/admin-emp/sprite-admin-home.svg) no-repeat scroll -5px -275px #fff;
+    background-size: 55px;
+    padding: 10px 15px 10px 40px;
+    box-sizing: border-box!important;
+    width: 100%;
+}
+.adminFiltersSuggest__More {
+    position: relative;
+}
+
+.adminFiltersBox__moreButton {
+    font-size: 19px;
+    color: #8c8c8c;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    margin: 5px 10px;
+    text-align: right;
+    text-decoration: underline;
+}
+.adminFiltersSuggest__Layer {
+    border: 1px solid #d9d9d9;
+    width: 200px;
+    top: 25px;
+    right: -5px;
+    padding: 14px;
+    border-radius: 3px;
+    z-index: 9;
+    background: #fff;
+    position: absolute;
+}
+
+.adminFormLabel {
+    font-family: "Merriweather Sans","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+}
+.input-append {
+    position: relative;
+}
+.input-append input {
+    margin-top: 0!important;
+}
+
+.adminFiltersSuggest__Date {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.adminFiltersSuggest .input-append .add-on {
+    height: .6em;
+}
+
+.input-append .add-on {
+    background-color: #fff;
+    padding: 15px 16px 14px;
+    height: .3em;
+    top: 1px;
+}
+.input-append .add-on {
+    display: inline-block;
+    border-radius: 0 3px 3px 0;
+    background-color: #f9f9f9;
+    border-left: 1px solid #d9d9d9;
+    padding: 18px 16px;
+    background-image: url(https://cdn1.weddingwire.in/assets/img/forms/sprite_login.png);
+    background-repeat: no-repeat;
+    background-position: -291px -448px;
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
+    top: 2px;
+} .adminHomeSol {
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background: #fff;
+    margin-bottom: 40px;
+    padding-left: 0px
+}
+
+
+
+.adminHomeSol__item:first-child {
+    border-top: 0;
+}
+
+.adminHomeSol__item {
+    border-top: 1px solid #d9d9d9;
+    padding: 20px 10px 20px 20px;
+}
+.pure-g {
+    letter-spacing: unset;
+    text-rendering: optimizespeed;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    display: flex;
+}
+.pure-u-7-10 {
+    width: 70%;
+}
+.adminHomeSol__checkAvatar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+.pure-u-1-6, .pure-u-2-12, .pure-u-4-24 {
+    width: 16.6666%;
+}
+.adminHomeSol__check {
+    min-width: 23px;
+}
+
+.fleft {
+    float: left;
+}
+
+.icheckbox_grey, .icheckbox_minimal {
+    background-position: 0 0;
+}
+
+.icheckbox_grey, .icheckbox_minimal, .iradio_minimal {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAUCAMAAAD/eoL4AAAAS1BMV…kamXe4v3eN7/vfuMZX5usFU+133+qPVdG+kePyn5Tv/jd+AFYQZJNS5GGcAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.adminHomeSol__checkAvatar .adminHomeSol__avatar {
+    float: left;
+    width: 70%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.adminHomeSol__avatar {
+    padding-right: 10px;
+}
+.app-link {
+    cursor: pointer;
+}
+
+.size-avatar-medium {
+    max-width: 60px;
+}
+
+*, :after, :before {
+    box-sizing: unset;
+}
+
+
+/*.adminHomeSol:before, .adminHomeSol:after {
+  box-sizing: unset;
+}*/
+.sidebar-bottom {
+   
+    box-sizing: border-box;
+}
+
+.avatar-alias {
+    min-width: 42px;
+    position: relative;
+}
+.avatar-alias svg {
+    overflow: visible;
+    height: 1px;
+    padding-bottom: 98%;
+    width: 100%;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+text[Attributes Style] {
+    transform: translate(100, 130);
+}
+
+:not(svg), :not(foreignObject) > svg {
+    transform-origin: 0px 0px 0px;
+}
+
+text {
+    white-space: nowrap;
+}
+
+text, foreignObject {
+    display: block;
+}
+.pure-u-10-12 {
+    width: 83.3333%;
+}
+.adminHomeSol__name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2b2b2b;
+    cursor: pointer;
+}
+.adminHomeSol__name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2b2b2b;
+    cursor: pointer;
+}
+.adminHomeSol__status {
+    margin-right: 5px;
+    font-size: 12px;
+}
+.adminHomeSol__date {
+    color: #666;
+    font-size: 12px;
+}
+.adminHomeSol__status--info {
+    color: #4baad6;
+}
+
+.adminHomeSol__status {
+    margin-right: 5px;
+    font-size: 12px;
+}
+.adminHomeSol__description {
+    margin: 5px 0 0;
+    word-wrap: break-word;
+}
+.pure-u-3-10 {
+    width: 30%;
+}
+.adminHomeSol__info {
+    margin-top: 5px;
+    float: right;
+    text-align: center;
+}
+
+.pure-u-1-2, .pure-u-2-4, .pure-u-3-6, .pure-u-4-8, .pure-u-5-10, .pure-u-6-12 {
+    width: 50%;
+}
+.adminHomeSol__icon--envelope {
+    background-position: 50% -224px;
+}
+
+.adminHomeSol__icon {
+    height: 21px;
+    margin-bottom: 5px;
+    background: url(https://cdn1.weddingwire.in/assets/img/admin-emp/sprite-admin-home.svg) no-repeat scroll 50% 0 transparent;
+    background-size: 50.5px;
+    display: block;
+}
+.adminHomeSol__infoNumber {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+.adminHomeSol__infoExtra {
+    font-size: 11px;
+    font-weight: 400;
+    display: block;
+}
+
+.mr30 {
+    margin-right: 30px;
+    padding-left: 15px;
+        background: #E0E0E0;
+
+}
+.adminAsideTitle {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.adminAside {
+    margin-bottom: 20px;
+}
+.adminAside__item.active, .adminAside__item:hover {
+    background-color: #f8f8f8;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1024px)
+.adminAside__item {
+    font-size: 11px;
+}
+.adminAside__item {
+    color: #444;
+    padding: 6px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    display: block;
+    position: relative;
+}
+.adminAside__counter {
+    background: #f9f9f9;
+    min-width: 15px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 11px;
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 0 6px;
+    text-align: center;
+    display: block;
+    float: right;
+}
+@media only screen and (max-width: 1024px)
+.adminAside__item {
+    font-size: 11px;
+}
+
+.adminAside__item {
+    color: #444;
+    padding: 6px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    display: block;
+    position: relative;
+}
+.adminAside__counter {
+    background: #f9f9f9;
+    min-width: 15px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 11px;
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 0 6px;
+    text-align: center;
+    display: block;
+    float: right;
+}
+@media only screen and (max-width: 1024px)
+.adminAside__item {
+    font-size: 11px;
+}
+
+.adminAside__item {
+    color: #444;
+    padding: 6px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    display: block;
+    position: relative;
+}
+
+.adminBullet--orange {
+    background-color: #faa14b;
+}
+
+.adminBullet {
+    display: inline-block;
+    vertical-align: baseline;
+    background-color: #8c8c8c;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 transparent;
+    transition: .3s ease box-shadow;
+}
+.adminAsideSeparator {
+    margin: 0 0 20px;
+}
+.adminAsideTitle {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.adminAside__icon {
+    float: left;
+    width: 22px;
+    height: 21px;
+    margin-right: 8px;
+    background: url(https://cdn1.weddingwire.in/assets/img/admin-emp/sprite-nav.svg) no-repeat 50% 0 transparent;
+}
+.adminAside__icon {
+    float: left;
+    width: 22px;
+    height: 21px;
+    margin-right: 8px;
+    background: url(https://cdn1.weddingwire.in/assets/img/admin-emp/sprite-nav.svg) no-repeat 50% 0 transparent;
+}
+.adminFiltersBox__dropdown li a.active, .adminFiltersBox__dropdown li a:hover {
+    background-color: #f9f9f9;
+    color: #444;
+}
+
+.pull-right {
+float: right;
+}

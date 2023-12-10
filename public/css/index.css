@@ -1,0 +1,577 @@
+.pt-4, .py-4 {
+     /*padding-top: 1.5rem!important; */
+     padding-top: 0px!important;
+}
+
+.toggle-handle {
+    position: relative!important;
+    margin: 0 auto!important;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    height: 100%!important;
+    width: 0!important;
+    border-width: 0 1px!important;
+}
+
+.toggle-handle {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+    width: 0;
+    border-width: 0 1px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.btn .btn-default{
+        background-color: #fff!important;
+}
+/*
+select{
+    -moz-appearance:none;
+     -webkit-appearance:none; 
+      appearance:none; 
+}*/
+   .hidelogo {
+    
+    display:none;
+    color:#2196F3; 
+    font-weight:600; 
+    font-size:16px; 
+    cursor: pointer;
+    padding-top: 13px;
+
+}
+
+
+
+
+  .showlogo {
+        padding-top: 13px;
+    color:#2196F3; 
+    font-weight:600; 
+    font-size:16px; 
+    cursor: pointer;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+#custom_tabs .tab .nav-tabs .nav-link {
+    background: transparent;
+    color: #4c9ec6;
+    padding: .75rem 1rem;
+    border: 0;
+    font-weight: 10px;
+    font-size: 17px;
+}
+
+#custom_tabs .tab .nav-tabs .nav-link.active {
+    background: #fff;
+    color: #E91E63;
+     font-weight: 10px;
+    font-size: 17px;
+}
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 3.0em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto;
+        padding:2px 10px;
+        border-bottom:none;
+        background-color: #4d606e;
+        color: #fff;
+    }
+
+    
+    .adminFormLabel {
+    font-family: "Merriweather Sans","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+}
+
+.adminFormUpload {
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    min-height: 190px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.adminFormUpload__icon {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: url(https://cdn1.weddingwire.in/assets/img/admin-emp/sprite-empty.svg) no-repeat scroll 50% -172px transparent;
+    background-size: 140px;
+    margin: 20px auto 0;
+    width: 115px;
+}
+
+
+.adminFormUpload__button {
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.adminFormUpload__button input[type=file] {
+    opacity: 0;
+    left: -9999px;
+    position: fixed;
+}
+
+
+
+.btn-outline {
+    font-size: 14px;
+    line-height: 22.65247586px;
+    display: inline-block;
+    vertical-align: middle;
+    background: 0 0;
+    font-family: "Merriweather Sans","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+    color: #fff;
+    font-weight: 400;
+    outline: 0;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-color: transparent;
+    -webkit-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+}
+
+.outline-red {
+    color: #fb1b26;
+    border: 1px solid #fb1b26;
+}
+.btn-outline:first-child, .btn-outline:only-of-type {
+    margin-left: 0;
+}
+
+.btn-outline--red:hover, .outline-red:hover {
+    color: #fff;
+    background-color: #fb1b26;
+}
+
+.form-group {
+    margin-bottom: 1.3rem;
+}
+
+
+.rating-stars1 ul {
+  list-style-type:none;
+  padding:0;
+  
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars1 ul > li.star {
+  display:inline-block;
+  
+}
+
+/* Idle State of the stars */
+.rating-stars1 ul > li.star > i.fa {
+  font-size:2.5em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars1 ul > li.star.hover > i.fa {
+  color:#FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars1 ul > li.star.selected > i.fa {
+  color:#FF912C!important;
+}
+
+/*.container_rat { margin:150px auto; max-width:728px;}*/
+.container_rat ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container_rat li {
+  display: inline-block;
+  font-size: 25px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.container_rat li.active, .container_rat li.hover { color: orange; }
+
+.container_rat ul.hover li.active:not(.hover) { color: #ccc }
+h1 { font-family:'Roboto Condensed'; color:#fff; margin-bottom:100px;}
+
+
+
+/*vendor promotion*/
+ .adminPromosSet {
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.adminPromosSet__header {
+    color: #444;
+    padding: 30px 30px 50px;
+    background: url(https://cdn1.weddingwire.in/assets/img/admin-emp/bg_hero-promos.jpg) no-repeat scroll 50% 50% #333;
+    background-size: cover;
+        padding-left: 68px;
+}
+.adminPromosSet__title {
+    font-family: "Merriweather Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.adminPromosSet__description, .adminPromosSet__title {
+    color: #fff;
+}
+
+.adminPromosSet__description {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 225px;
+}
+
+.adminPromosSet__content {
+    padding: 25px 30px;
+    text-align: center;
+}
+.adminPromosSet__button:first-child {
+    margin-left: 0;
+}
+.adminPromosSet__button {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #d9d9d9;
+    color: #8c8c8c;
+    background: #f9f9f9;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    height: 45px;
+    width: 70px;
+    margin: 0 10px;
+    padding: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.adminPromosSet__button.active, .adminPromosSet__button:hover {
+    color: #fff;
+    background: #fa9b46;
+    border-color: #ff810f;
+}
+
+.adminPromosSet__button input {
+    margin: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    display: none;
+}
+.adminPromosSet__denied {
+    margin: 20px 0;
+    font-size: 18px;
+    display: block;
+}
+.icheckbox_grey, .icheckbox_minimal, .iradio_minimal {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAUCAMAAAD/eoL4AAAAS1BMV…kamXe4v3eN7/vfuMZX5usFU+133+qPVdG+kePyn5Tv/jd+AFYQZJNS5GGcAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+
+.iradio_minimal {
+    background-position: -100px 0;
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+
+.btn-flat.red {
+    background-color: #fb1b26;
+}
+
+.btn-flat {
+    font-size: 14px;
+    line-height: 22.65247586px;
+    padding: 8px 15px;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    font-weight: 400;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
+}
+  
+
+    .badges .heading, .badges .rating
+    {
+        text-align: center;
+    }
+    .logo
+    {
+        position: relative;
+        width: 150px;
+        height: 40px;
+        margin: 0 auto;
+    }
+    .logo img 
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .badges .vendor-name
+    {
+        text-align: center;
+    }
+    .badges .card 
+    {
+        box-shadow: inset 0 0 10px #f4d090;
+        padding: 10px;
+        background-image: url('../assets/imgs/bookwedding-badges.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background: #e52e80;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .badges h4 
+    {
+        padding-top: 10px;
+        font-size: 18px;
+        color: #fefefe;
+        font-weight: lighter;
+        font-family: inherit;
+    }
+    .badges .border
+    {
+        border: 2px solid #fff;
+        padding: 15px 0px 0px 0px;
+        border-radius: 0px;
+        background-color: #bb1c63;
+    }
+    .badges .heading
+    {
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        font-size: 20px;
+        color: #fff;
+        font-family: 'CataneoBT', sans-serif;
+        font-weight: 600;
+    }
+    .logo-div 
+    {
+        background-color: #fff;
+        padding: 10px;
+    }
+    .badges .rating .fas, .badges .rating .far 
+    {
+        color: #FFEB3B;
+        font-size: 40px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .content-image h2 
+    {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #d6a62c;
+        margin-bottom: 10px;
+        font-family: 'CataneoBT', sans-serif;
+        font-weight: 600;
+    } 
+    .content-image .p1
+    {
+        font-size: 14px;
+        margin-top: 4px;
+        margin-bottom: 0px;
+    }
+    .design-img
+    {
+        width: 130px;
+        height: 50px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .design-img img 
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .certificate
+    {
+        background: #fff;
+        margin-top: 10px;
+        border: 6px solid #e52e80;
+    }
+    .certificate .inner-border
+    {
+        border: 3px solid #FFC107;
+        padding: 10px;
+    }
+    .certificate .img1
+    {
+        margin-bottom: 10px;
+    }
+    .certificate .img2
+    {
+        margin-top: 10px;
+    }
+    .certificate .logo
+    {
+        width: 135px;
+        height: 43px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .signature
+    {
+        position: relative;
+        width: 63px;
+        height: 23px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .signature img 
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .sign
+    {
+        margin-top: 5px;
+    }
+    .certificate span
+    {
+        color: #bb2463;
+        font-weight: 500;
+    }
+    .center
+    {
+        text-align: center;
+    }
+
+    .badges .rating , .badges .rating {
+    color: #FFEB3B!important;
+    font-size: 40px!important;
+    margin-top: 15px!important;
+    margin-bottom: 15px!important;
+}
+/*
+.svg-inline--fa.fa-w-18 {
+    width: 1.125em;
+    color: #FFEB3B;
+    font-size: 33px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 1.125em;
+    color: #FFEB3B;
+    font-size: 33px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}*/
+
+h1,h2{
+    font-size:unset;
+}
+
+.pull-right{
+    float: right;
+}
+/*...........................*/
+
+
+/* -- Background color rgba -- */
+.bg-primary-rgba {
+  background-color: rgba(80, 111, 228, 0.1) !important;
+}
+.bg-secondary-rgba {
+  background-color: $secondary-rgba !important;
+}
+.bg-success-rgba {
+background-color: rgba(67, 209, 135, 0.1)
+
+}
+.bg-danger-rgba {
+background-color: rgba(249, 97, 109, 0.1) !important;
+
+}
+.bg-warning-rgba {
+background-color: rgba(247, 187, 77, 0.1) !important;
+
+}
+.bg-info-rgba {
+  background-color: rgba(61, 155, 251, 0.1) !important;
+}
+.bg-light-rgba {
+  background-color: $light-rgba !important;
+}
+.bg-dark-rgba {
+  background-color: $dark-rgba !important;
+}
